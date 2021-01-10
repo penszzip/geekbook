@@ -1,0 +1,96 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #120078;
+  line-height: 2;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 4rem;
+  padding-top: 75px;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #120078;
+  margin: 130px auto 0;
+}
+
+.top-container {
+  background-color: #120078;
+}
+
+.middle-container {
+  background-color: #fd3a69;
+}
+
+.semi-middle-container {
+  background-color: #fd3a69;
+}
+
+.main-link {
+  color: #fecd1a;
+  margin-left: 384px;
+}
+
+.intro-img {
+  float: right;
+  padding-top: 30px;
+}
+
+.bio {
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: 512px;
+}
+
+.description {
+  margin: 0 auto 0 384px;
+  width: 60%;
+  padding-bottom: 100px;
+}
+
+.samurai-img {
+  float: right;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+.nav-bar-link {
+  color: #fecd1a;
+  margin: auto 10px;
+}
+
+.bio-link {
+  color: #120078;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2rem;
+  margin-top: 30px;
+}
