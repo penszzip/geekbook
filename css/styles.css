@@ -8,7 +8,6 @@ body {
 h1 {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 4rem;
-  padding-top: 75px;
   font-weight: lighter;
   margin-top: 0;
   margin-bottom: 0;
@@ -20,7 +19,6 @@ h2 {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 100px;
 }
 
 h3 {
@@ -43,16 +41,18 @@ hr {
   margin: 130px auto 0;
 }
 
-.top-container {
+.nav-bar {
   background-color: #120078;
+}
+
+.top-container {
+  background-color: #fd3a69;
+  padding-top: 55px;
 }
 
 .middle-container {
   background-color: #fd3a69;
-}
-
-.semi-middle-container {
-  background-color: #fd3a69;
+  padding-top: 100px;
 }
 
 .main-link {
@@ -62,7 +62,6 @@ hr {
 
 .intro-img {
   float: right;
-  padding-top: 30px;
 }
 
 .bio {
@@ -80,7 +79,6 @@ hr {
 .samurai-img {
   float: right;
   padding-left: 80px;
-  padding-top: 100px;
 }
 
 .nav-bar-link {
