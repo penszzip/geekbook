@@ -38,7 +38,7 @@ hr {
   border-style: dotted none none none;
   border-width: 10px;
   border-color: #120078;
-  margin: 130px auto 0;
+  margin: 12% auto 0;
 }
 
 .nav-bar {
@@ -47,17 +47,17 @@ hr {
 
 .top-container {
   background-color: #fd3a69;
-  padding-top: 55px;
+  padding-top: 5%;
 }
 
 .middle-container {
   background-color: #fd3a69;
-  padding-top: 100px;
+  padding-top: 9.26%;
 }
 
 .main-link {
   color: #fecd1a;
-  margin-left: 384px;
+  margin-left: 20%;
 }
 
 .intro-img {
@@ -67,28 +67,28 @@ hr {
 .bio {
   margin: 0 auto 0 auto;
   width: 60%;
-  height: 512px;
+  height: 47%;
 }
 
 .description {
-  margin: 0 auto 0 384px;
+  margin: 0 auto 0 20%;
   width: 60%;
-  padding-bottom: 100px;
+  padding-bottom: 9.26%;
 }
 
 .samurai-img {
   float: right;
-  padding-left: 80px;
+  padding-left: 4.16%;
 }
 
 .nav-bar-link {
   color: #fecd1a;
-  margin: auto 10px;
+  margin: auto 0.52%;
 }
 
 .bio-link {
   color: #120078;
   font-family: 'Press Start 2P', sans-serif;
   font-size: 2rem;
-  margin-top: 30px;
+  margin-top: 2.78%;
 }
