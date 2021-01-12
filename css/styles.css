@@ -48,6 +48,7 @@ hr {
 .top-container {
   background-color: #fd3a69;
   padding-top: 5%;
+  height: 49.25%;
 }
 
 .middle-container {
@@ -68,7 +69,7 @@ hr {
 .bio {
   margin: 0 auto 0 auto;
   width: 60%;
-  height: 82%;
+  height: 100%;
 }
 
 .description {
