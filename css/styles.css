@@ -38,7 +38,8 @@ hr {
   border-style: dotted none none none;
   border-width: 10px;
   border-color: #120078;
-  margin: 12% auto 0;
+  margin: 24% auto 0;
+  padding-bottom: 12%;
 }
 
 .nav-bar {
@@ -48,12 +49,11 @@ hr {
 .top-container {
   background-color: #fd3a69;
   padding-top: 5%;
-  height: 49.25%;
 }
 
 .middle-container {
   background-color: #fd3a69;
-  padding-top: 9.26%;
+  padding-top: 12%;
 }
 
 .main-link {
@@ -69,7 +69,6 @@ hr {
 .bio {
   margin: 0 auto 0 auto;
   width: 60%;
-  height: 100%;
 }
 
 .description {
