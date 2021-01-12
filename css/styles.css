@@ -60,8 +60,9 @@ hr {
   margin-left: 20%;
 }
 
-.intro-img {
+.map-img {
   float: right;
+  width: 26.67%;
 }
 
 .bio {
