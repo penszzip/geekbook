@@ -3,21 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>Geekbook</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&display=swap" rel="stylesheet">
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="nav-bar">
-      <a class="main-link" href="#">Main</a>
-      <a class="nav-bar-link" href="#">Japan</a>
-      <a class="nav-bar-link" href="#">China</a>
-    </div>
+    <nav class="navbar navbar-expand-lg link-container">
+      <a class="navbar-brand navbrand" href="#">Geekbook</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link navlink" href="#">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navlink" href="#">China</a>
+          <li class="nav-item">
+            <a class="nav-link navlink" href="#">Japan</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="top-container">
       <div class="bio">
         <img class="map-img" src="images/map.png" alt="map-img">
         <h1>Geekbook</h1>
         <h3>An ultimate guidebook through Japan and China.</h3>
-        <a class="bio-link" href="#about">See more...</a>
+        <a href="#about">See more...</a>
       </div>
       <hr>
     </div>
@@ -31,4 +52,3 @@
     </div>
   </body>
 </html>
-
