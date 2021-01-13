@@ -10,7 +10,8 @@ h1 {
   font-size: 4rem;
   font-weight: lighter;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  line-height: 2;
 }
 
 h2 {
@@ -19,10 +20,13 @@ h2 {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 2;
 }
 
 h3 {
+  line-height: 2;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 p {
@@ -40,6 +44,7 @@ hr {
   border-color: #120078;
   margin: 24% auto 0;
 }
+
 
 .nav-bar {
   background-color: #120078;
@@ -67,7 +72,8 @@ hr {
 
 .bio {
   margin: 0 auto 0 auto;
-  width: 60%;
+  width: 70%;
+
 }
 
 .description {
@@ -91,4 +97,19 @@ hr {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 2rem;
   margin-top: 2.78%;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.link-container {
+  background-color: #120078;
+}
+
+.navlink {
+  color: #fd3a69;
+}
+
+.navbrand {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #fd3a69;
 }
