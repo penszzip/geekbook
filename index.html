@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Geekbook</title>
+  <title>Гикбук</title>
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
   <!-- bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -20,7 +21,7 @@
   <div class="container-fluid">
 
     <nav class="navbar navbar-expand-lg navbar-dark link-container">
-      <a class="navbar-brand navbrand" href="#">Geekbook</a>
+      <a class="navbar-brand navbrand" href="#">Гикбук</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,12 +29,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link navlink" href="#">Main</a>
+            <a class="nav-link navlink" href="#">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navlink" href="#">China</a>
+            <a class="nav-link navlink" href="#">Китай</a>
           <li class="nav-item">
-            <a class="nav-link navlink" href="#">Japan</a>
+            <a class="nav-link navlink" href="#">Япония</a>
           </li>
         </ul>
       </div>
@@ -43,28 +44,37 @@
     <div class="top-container">
       <div class="row">
         <div class="col-lg-6">
-          <h1>Geekbook</h1>
-          <h3>An ultimate guidebook through Japan and China.</h3>
-          <button type="button" class="btn btn-outline-light bio-btn">See more</button>
+          <h1>Гикбук</h1>
+          <h3>Путеводитель по гик-местам в Японии и Китае.</h3>
+          <a class="btn btn-primary bio-btn" href="#about" role="button">Подробнее...</a>
+          <!-- <button type="button" class="btn btn-outline-light bio-btn">Подробнее...</button> -->
         </div>
         <div class="col-lg-6">
           <img class="map-img" src="images/map.png" alt="map-img">
         </div>
       </div>
     </div>
-  </div>
 
+    <hr>
 
-
-
-  <!--
-    <div class="middle-container">
-      <div class="description" id="about">
-        <img class="samurai-img"src="images/samurai.png" alt="samurai-helmet-img">
-        <h2>What is it?</h2>
-        <h3>Geekbook is not a usual guidebook. It is a guide through unusual
-          places in Japan and China, which aren't mentioned in any other guidebooks and which any real geek will enjoy!</h3>
+    <div class="middle-container" id="about">
+      <div class="row">
+        <div class="col-lg-6">
+        <h2>В чем суть?</h2>
+        <h3>Гикбук - это не обычный скучный путеводитель, которых итак существует целая куча. Наш путеводитель содержит в себе подробное описание незаурядных мест в Японии и Китае, которые не упомянуты ни в одном другом справочнике, и которые понравятся любому гику!
+        </h3>
+        </div>
+        <div class="col-lg-6">
+          <img class = "samurai-img" src="images/samurai.png" alt="samurai-img">
+        </div>
       </div>
     </div>
+
+  </div>
+
+  <div class="bottom-container">
+    <p class="footer-text">@Liceun 1535 fizmat</p>
+  </div>
+
   </body>
-</html> -->
+</html>
