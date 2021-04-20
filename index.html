@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
@@ -21,7 +20,7 @@
   <div class="container-fluid">
 
     <nav class="navbar navbar-expand-lg navbar-dark link-container">
-      <a class="navbar-brand navbrand" href="#">Гикбук</a>
+      <a class="navbar-brand navbrand" href="index.html">Гикбук</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,12 +28,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link navlink" href="#">Главная</a>
+            <a class="nav-link navlink" href="index.html">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navlink" href="#">Китай</a>
+            <a class="nav-link navlink" href="japan.html">Япония</a>
           <li class="nav-item">
-            <a class="nav-link navlink" href="#">Япония</a>
+            <a class="nav-link navlink" href="china.html">Китай</a>
           </li>
         </ul>
       </div>
@@ -55,17 +54,39 @@
       </div>
     </div>
 
-    <hr>
+    <hr id="about">
 
-    <div class="middle-container" id="about">
+    <div class="middle-container" >
       <div class="row">
         <div class="col-lg-6">
-        <h2>В чем суть?</h2>
-        <h3>Гикбук - это не обычный скучный путеводитель, которых и так существует целая куча. Наш путеводитель содержит в себе подробное описание незаурядных мест в Японии и Китае, которые не упомянуты ни в одном другом справочнике, и которые понравятся любому гику!
-        </h3>
+          <h2>В чем суть?</h2>
+          <h3>Гикбук - это не обычный скучный путеводитель, которых и так существует целая куча. Наш путеводитель содержит в себе подробное описание незаурядных мест в Японии и Китае, которые не упомянуты ни в одном другом справочнике, и которые понравятся любому гику!
+          </h3>
         </div>
         <div class="col-lg-6">
-          <img class = "samurai-img" src="images/samurai.png" alt="samurai-img">
+          <!-- <img class = "samurai-img" src="images/samurai.png" alt="samurai-img"> -->
+          <!-- <img class="gate-img" src="images/torii-gate.png" alt="gate-img"> -->
+          <img class="cover-img" src="images/cover.png" alt="cover">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="choose">Выберите страну...</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 choose-col">
+          <h2 class="point-name">Япония</h2>
+          <a href="japan.html">
+            <img class="point" src="images/japan.png" alt="japan-img">
+          </a>
+        </div>
+        <div class="col-lg-6 choose-col">
+          <h2 class="point-name">Китай</h2>
+          <a href="china.html">
+            <img class="point" src="images/china.png" alt="">
+          </a>
         </div>
       </div>
     </div>
